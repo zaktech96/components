@@ -3,7 +3,9 @@ import Button from "./Button";
 function App() {
   return (
     <div>
-      <Button>Click Me</Button>
+      <Button success primary rounded outline>
+        Click Me
+      </Button>
     </div>
   );
 }
