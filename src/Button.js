@@ -10,7 +10,7 @@ function Button({
   outline,
   rounded,
 }) {
-  return <button>{children}</button>; // A simple Button component that renders a <button> element with the provided children.
+  return <button className="bg-blue-500">{children}</button>; // A simple Button component that renders a <button> element with the provided children.
 }
 
 Button.propTypes = {
