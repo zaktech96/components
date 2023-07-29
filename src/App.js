@@ -3,7 +3,8 @@ import Button from "./Button";
 function App() {
   return (
     <div>
-      <Button success primary rounded outline>
+      <h1>hello</h1>
+      <Button primary rounded outline>
         Click Me
       </Button>
     </div>
